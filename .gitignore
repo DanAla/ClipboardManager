@@ -1,5 +1,8 @@
-# Build directories
-build*/
+# Build directories (exclude contents but allow build scripts)
+build*/output/
+build*/temp*
+build*/*.o
+build*/*.obj
 Build*/
 BUILD*/
 
